@@ -1,10 +1,10 @@
 {
   "name": "advance_react",
   "version": "1.0.0",
-  "main": "lib/server.kjs",
+  "main": "lib/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },

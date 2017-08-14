@@ -24,7 +24,6 @@ exports[`ArticleList renders correctly 1`] = `
       style={
         Object {
           "color": "#888",
-          "fontSize": "0.8em",
         }
       }
     >
@@ -74,7 +73,6 @@ exports[`ArticleList renders correctly 1`] = `
       style={
         Object {
           "color": "#888",
-          "fontSize": "0.8em",
         }
       }
     >
